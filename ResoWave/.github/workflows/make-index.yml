@@ -1,1 +1,27 @@
+name: Build CODE_INDEX
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Generate CODE_INDEX.md
+        run: |
+          echo "# Code Index (flatten-tree)" > CODE_INDEX.md
+          echo "" >> CODE_INDEX.md
+          while IFS= read -r f; do
+            echo "- [$f](https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${GITHUB_REF_NAME}/${f})" >> CODE_INDEX.md
+          done < <(find ResoWave -type f -name "*.swift" | sort)
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add CODE_INDEX.md
+          git commit -m "Add CODE_INDEX.md" || echo "No changes"
+          git push
 
