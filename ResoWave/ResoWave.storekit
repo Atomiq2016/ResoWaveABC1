@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "2.0",
+  "identifier": "ResoWaveConfig",
+  "products": [
+    {
+      "id": "resowave.monthly",
+      "displayName": "Monthly Subscription",
+      "type": "auto-renewable-subscription",
+      "subscription": {
+        "subscriptionGroupID": "group1",
+        "subscriptionPeriod": "P1M"
+      },
+      "price": {
+        "currencyCode": "USD",
+        "value": 4.99
+      }
+    }
+  ],
+  "subscriptionGroups": [
+    {
+      "id": "group1",
+      "displayName": "Default Group"
+    }
+  ]
+}

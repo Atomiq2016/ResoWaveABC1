@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {
+    };
+    objectVersion = 56;
+    objects = {
+        /* Begin PBXBuildFile section */
+        
+        37CB34218435410BB6286B0D /* ResoWaveApp.swift in Sources */ = {
+            isa = PBXBuildFile;
+            fileRef = 2A787519B59441D6A128323F /* ResoWaveApp.swift */;
+        };
+
+        9284B8F7F8BD4B2481F43808 /* BreathConfig.swift in Sources */ = {
+            isa = PBXBuildFile;
+            fileRef = 3673112A2B9843BB8444D5DA /* BreathConfig.swift */;
+        };
+
+        852EB52529564F32B4B67248 /* SessionRecord.swift in Sources */ = {
+            isa = PBXBuildFile;
+            fileRef = 92093943501941AD8A75054F /* SessionRecord.swift */;
+        };
+
+        9BD9168C92804037912B83A3 /* PacerEngine.swift in Sources */ = {
+            isa = PBXBuildFile;
+            fileRef = FEF7D063E2374514A465E4AD /* PacerEngine.swift */;
+        };
+
+        358FA6FF2D7B4160BAA82E4A /* MicBreathDetector.swift in Sources */ = {
+            isa = PBXBuildFile;
+            fileRef = 2A814F1CC60F4A84BD4B4E16 /* MicBreathDetector.swift */;
+        };
+
+        FA5330EB64C14DAF9E3EECC1 /* ScoreEngine.swift in Sources */ = {
+            isa = PBXBuildFile;
+            fileRef = 7C8F18D82EE2491CA3E9B751 /* ScoreEngine.swift */;
+        };
+
+        94570DCD5E2D4CE1BB081648 /* PurchaseManager.swift in Sources */ = {
+            isa = PBXBuildFile;
+            fileRef = A61EF44F64824BE99A31D57A /* PurchaseManager.swift */;
+        };
+
+        AD2C9A50648744E5B0B515ED /* DataStore.swift in Sources */ = {
+            isa = PBXBuildFile;
+            fileRef = C9AF6696F7054BB991D719C1 /* DataStore.swift */;
+        };
+
+        1EC1C9590F7A45E6A5F7500B /* HomeView.swift in Sources */ = {
+            isa = PBXBuildFile;
+            fileRef = BCA9533509644B0A84577DF7 /* HomeView.swift */;
+        };
+
+        3CBAA853FEFC4F038B406043 /* SessionView.swift in Sources */ = {
+            isa = PBXBuildFile;
+            fileRef = C467C3DCD21A41BFB70AF1F8 /* SessionView.swift */;
+        };
+
+        20ACFA8A89F04889A2E71AD9 /* PaywallView.swift in Sources */ = {
+            isa = PBXBuildFile;
+            fileRef = A16B6C13FDA74CC089857D2D /* PaywallView.swift */;
+        };
+
+        B8E61DBA29134DF0B1122906 /* HistoryView.swift in Sources */ = {
+            isa = PBXBuildFile;
+            fileRef = BB7F8B5914334B96A5862BC2 /* HistoryView.swift */;
+        };
+
+        CC4E7CC5273D4C4798E1F5CE /* Haptics.swift in Sources */ = {
+            isa = PBXBuildFile;
+            fileRef = C26F991CC5AE42A798A9625C /* Haptics.swift */;
+        };
+
+        BB4DD153DF994188BB2C50CA /* Formatting.swift in Sources */ = {
+            isa = PBXBuildFile;
+            fileRef = 67E402379A8046FCAE1C8539 /* Formatting.swift */;
+        };
+        
+        28280B598EE14667AE785992 /* Assets.xcassets in Resources */ = {
+            isa = PBXBuildFile;
+            fileRef = 69946D6783BA42478C35EF73 /* Assets.xcassets */;
+        };
+
+        3D3E84E321AE425BACB27CD5 /* ResoWave.storekit in Resources */ = {
+            isa = PBXBuildFile;
+            fileRef = 0CF2C63475774A18822C2DE8 /* ResoWave.storekit */;
+        };
+        /* End PBXBuildFile section */
+
+        /* Begin PBXFileReference section */
+        
+PROD00000000000000000000 /* ResoWave.app */ = {
+    isa = PBXFileReference;
+    explicitFileType = wrapper.application;
+    includeInIndex = 0;
+    path = ResoWave.app;
+    sourceTree = BUILT_PRODUCTS_DIR;
+};
+        
+    2A787519B59441D6A128323F /* ResoWaveApp.swift */ = {
+        isa = PBXFileReference;
+        lastKnownFileType = sourcecode.swift;
+        name = ResoWaveApp.swift;
+        path = ResoWave/ResoWaveApp.swift;
+        sourceTree = "<group>";
+    };
+    3673112A2B9843BB8444D5DA /* BreathConfig.swift */ = {
+        isa = PBXFileReference;
+        lastKnownFileType = sourcecode.swift;
+        name = BreathConfig.swift;
+        path = ResoWave/Models/BreathConfig.swift;
+        sourceTree = "<group>";
+    };
+    92093943501941AD8A75054F /* SessionRecord.swift */ = {
+        isa = PBXFileReference;
+        lastKnownFileType = sourcecode.swift;
+        name = SessionRecord.swift;
+        path = ResoWave/Models/SessionRecord.swift;
+        sourceTree = "<group>";
+    };
+    FEF7D063E2374514A465E4AD /* PacerEngine.swift */ = {
+        isa = PBXFileReference;
+        lastKnownFileType = sourcecode.swift;
+        name = PacerEngine.swift;
+        path = ResoWave/Models/PacerEngine.swift;
+        sourceTree = "<group>";
+    };
+    2A814F1CC60F4A84BD4B4E16 /* MicBreathDetector.swift */ = {
+        isa = PBXFileReference;
+        lastKnownFileType = sourcecode.swift;
+        name = MicBreathDetector.swift;
+        path = ResoWave/Models/MicBreathDetector.swift;
+        sourceTree = "<group>";
+    };
+    7C8F18D82EE2491CA3E9B751 /* ScoreEngine.swift */ = {
+        isa = PBXFileReference;
+        lastKnownFileType = sourcecode.swift;
+        name = ScoreEngine.swift;
+        path = ResoWave/Models/ScoreEngine.swift;
+        sourceTree = "<group>";
+    };
+    A61EF44F64824BE99A31D57A /* PurchaseManager.swift */ = {
+        isa = PBXFileReference;
+        lastKnownFileType = sourcecode.swift;
+        name = PurchaseManager.swift;
+        path = ResoWave/Models/PurchaseManager.swift;
+        sourceTree = "<group>";
+    };
+    C9AF6696F7054BB991D719C1 /* DataStore.swift */ = {
+        isa = PBXFileReference;
+        lastKnownFileType = sourcecode.swift;
+        name = DataStore.swift;
+        path = ResoWave/Models/DataStore.swift;
+        sourceTree = "<group>";
+    };
+    BCA9533509644B0A84577DF7 /* HomeView.swift */ = {
+        isa = PBXFileReference;
+        lastKnownFileType = sourcecode.swift;
+        name = HomeView.swift;
+        path = ResoWave/Views/HomeView.swift;
+        sourceTree = "<group>";
+    };
+    C467C3DCD21A41BFB70AF1F8 /* SessionView.swift */ = {
+        isa = PBXFileReference;
+        lastKnownFileType = sourcecode.swift;
+        name = SessionView.swift;
+        path = ResoWave/Views/SessionView.swift;
+        sourceTree = "<group>";
+    };
+    A16B6C13FDA74CC089857D2D /* PaywallView.swift */ = {
+        isa = PBXFileReference;
+        lastKnownFileType = sourcecode.swift;
+        name = PaywallView.swift;
+        path = ResoWave/Views/PaywallView.swift;
+        sourceTree = "<group>";
+    };
+    BB7F8B5914334B96A5862BC2 /* HistoryView.swift */ = {
+        isa = PBXFileReference;
+        lastKnownFileType = sourcecode.swift;
+        name = HistoryView.swift;
+        path = ResoWave/Views/HistoryView.swift;
+        sourceTree = "<group>";
+    };
+    C26F991CC5AE42A798A9625C /* Haptics.swift */ = {
+        isa = PBXFileReference;
+        lastKnownFileType = sourcecode.swift;
+        name = Haptics.swift;
+        path = ResoWave/Utilities/Haptics.swift;
+        sourceTree = "<group>";
+    };
+    67E402379A8046FCAE1C8539 /* Formatting.swift */ = {
+        isa = PBXFileReference;
+        lastKnownFileType = sourcecode.swift;
+        name = Formatting.swift;
+        path = ResoWave/Utilities/Formatting.swift;
+        sourceTree = "<group>";
+    };
+    8DFBD7E2FEFB4416992BC1C1 /* Info.plist */ = {
+        isa = PBXFileReference;
+        lastKnownFileType = text.plist.xml;
+        name = Info.plist;
+        path = Info.plist;
+        sourceTree = "<group>";
+    };
+    69946D6783BA42478C35EF73 /* Assets.xcassets */ = {
+        isa = PBXFileReference;
+        lastKnownFileType = text;
+        name = Assets.xcassets;
+        path = Assets.xcassets;
+        sourceTree = "<group>";
+    };
+    0CF2C63475774A18822C2DE8 /* ResoWave.storekit */ = {
+        isa = PBXFileReference;
+        lastKnownFileType = text.json;
+        name = ResoWave.storekit;
+        path = ResoWave.storekit;
+        sourceTree = "<group>";
+    };
+        /* End PBXFileReference section */
+
+        /* Begin PBXFrameworksBuildPhase section */
+        
+FRMB000000000000000000 /* Frameworks */ = {
+    isa = PBXFrameworksBuildPhase;
+    buildActionMask = 2147483647;
+    files = (
+    );
+    runOnlyForDeploymentPostprocessing = 0;
+};
+        /* End PBXFrameworksBuildPhase section */
+
+        /* Begin PBXGroup section */
+        
+MAIN00000000000000000000 = {
+    isa = PBXGroup;
+    children = (
+        2A787519B59441D6A128323F /* ResoWaveApp.swift */,
+				3673112A2B9843BB8444D5DA /* BreathConfig.swift */,
+				92093943501941AD8A75054F /* SessionRecord.swift */,
+				FEF7D063E2374514A465E4AD /* PacerEngine.swift */,
+				2A814F1CC60F4A84BD4B4E16 /* MicBreathDetector.swift */,
+				7C8F18D82EE2491CA3E9B751 /* ScoreEngine.swift */,
+				A61EF44F64824BE99A31D57A /* PurchaseManager.swift */,
+				C9AF6696F7054BB991D719C1 /* DataStore.swift */,
+				BCA9533509644B0A84577DF7 /* HomeView.swift */,
+				C467C3DCD21A41BFB70AF1F8 /* SessionView.swift */,
+				A16B6C13FDA74CC089857D2D /* PaywallView.swift */,
+				BB7F8B5914334B96A5862BC2 /* HistoryView.swift */,
+				C26F991CC5AE42A798A9625C /* Haptics.swift */,
+				67E402379A8046FCAE1C8539 /* Formatting.swift */,
+				8DFBD7E2FEFB4416992BC1C1 /* Info.plist */,
+				69946D6783BA42478C35EF73 /* Assets.xcassets */,
+				0CF2C63475774A18822C2DE8 /* ResoWave.storekit */,
+				PROD00000000000000000000 /* ResoWave.app */
+    );
+    sourceTree = "<group>";
+};
+        /* End PBXGroup section */
+
+        /* Begin PBXNativeTarget section */
+        TARG00000000000000000000 /* ResoWave */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = CONFTAR00000000000000000 /* Build configuration list for PBXNativeTarget "ResoWave" */;
+            buildPhases = (
+                SRCB0000000000000000000 /* Sources */,
+                RESB0000000000000000000 /* Resources */,
+                FRMB000000000000000000 /* Frameworks */,
+            );
+            buildRules = (
+            );
+            dependencies = (
+            );
+            name = ResoWave;
+            productName = ResoWave;
+            productReference = PROD00000000000000000000 /* ResoWave.app */;
+            productType = "com.apple.product-type.application";
+        };
+        /* End PBXNativeTarget section */
+
+        /* Begin PBXProject section */
+        PROJ00000000000000000000 /* Project object */ = {
+            isa = PBXProject;
+            attributes = {
+                LastSwiftUpdateCheck = 1500;
+                LastUpgradeCheck = 1500;
+                TargetAttributes = {
+                    TARG00000000000000000000 = {
+                        CreatedOnToolsVersion = 15.0;
+                    };
+                };
+            };
+            buildConfigurationList = CONFPRJ00000000000000000 /* Build configuration list for PBXProject "ResoWave" */;
+            compatibilityVersion = "Xcode 14.0";
+            developmentRegion = en;
+            hasScannedForEncodings = 0;
+            knownRegions = (
+                en,
+                Base,
+            );
+            mainGroup = MAIN00000000000000000000;
+            productRefGroup = MAIN00000000000000000000;
+            projectDirPath = "";
+            projectRoot = "";
+            targets = (
+                TARG00000000000000000000 /* ResoWave */,
+            );
+        };
+        /* End PBXProject section */
+
+        /* Begin PBXResourcesBuildPhase section */
+        
+RESB0000000000000000000 /* Resources */ = {
+    isa = PBXResourcesBuildPhase;
+    buildActionMask = 2147483647;
+    files = (
+        28280B598EE14667AE785992 /* in Resources */, 3D3E84E321AE425BACB27CD5 /* in Resources */,
+    );
+    runOnlyForDeploymentPostprocessing = 0;
+};
+        /* End PBXResourcesBuildPhase section */
+
+        /* Begin PBXSourcesBuildPhase section */
+        
+SRCB0000000000000000000 /* Sources */ = {
+    isa = PBXSourcesBuildPhase;
+    buildActionMask = 2147483647;
+    files = (
+        37CB34218435410BB6286B0D /* in Sources */, 9284B8F7F8BD4B2481F43808 /* in Sources */, 852EB52529564F32B4B67248 /* in Sources */, 9BD9168C92804037912B83A3 /* in Sources */, 358FA6FF2D7B4160BAA82E4A /* in Sources */, FA5330EB64C14DAF9E3EECC1 /* in Sources */, 94570DCD5E2D4CE1BB081648 /* in Sources */, AD2C9A50648744E5B0B515ED /* in Sources */, 1EC1C9590F7A45E6A5F7500B /* in Sources */, 3CBAA853FEFC4F038B406043 /* in Sources */, 20ACFA8A89F04889A2E71AD9 /* in Sources */, B8E61DBA29134DF0B1122906 /* in Sources */, CC4E7CC5273D4C4798E1F5CE /* in Sources */, BB4DD153DF994188BB2C50CA /* in Sources */,
+    );
+    runOnlyForDeploymentPostprocessing = 0;
+};
+        /* End PBXSourcesBuildPhase section */
+
+        /* Begin XCBuildConfiguration section */
+        DBGC0000000000000000000 /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+                SUPPORTS_MACCATALYST = NO;
+                IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+                TARGETED_DEVICE_FAMILY = 1;
+                            HEADERMAP_USE_SEPARATE_ENTRIES = YES;
+};
+            name = Debug;
+        };
+        RELC0000000000000000000 /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+                SUPPORTS_MACCATALYST = NO;
+                IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+                TARGETED_DEVICE_FAMILY = 1;
+                            HEADERMAP_USE_SEPARATE_ENTRIES = YES;
+};
+            name = Release;
+        };
+        DBGT0000000000000000000 /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 1;
+                GENERATE_INFOPLIST_FILE = NO;
+                INFOPLIST_FILE = Info.plist;
+                IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+                LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+                PRODUCT_BUNDLE_IDENTIFIER = com.example.ResoWave;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+                SUPPORTS_MACCATALYST = NO;
+                SWIFT_VERSION = 5.0;
+                TARGETED_DEVICE_FAMILY = 1;
+                DEVELOPMENT_TEAM = "";
+                            HEADERMAP_USE_SEPARATE_ENTRIES = YES;
+};
+            name = Debug;
+        };
+        RELT0000000000000000000 /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 1;
+                GENERATE_INFOPLIST_FILE = NO;
+                INFOPLIST_FILE = Info.plist;
+                IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+                LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+                PRODUCT_BUNDLE_IDENTIFIER = com.example.ResoWave;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+                SUPPORTS_MACCATALYST = NO;
+                SWIFT_VERSION = 5.0;
+                TARGETED_DEVICE_FAMILY = 1;
+                DEVELOPMENT_TEAM = "";
+                            HEADERMAP_USE_SEPARATE_ENTRIES = YES;
+};
+            name = Release;
+        };
+        /* End XCBuildConfiguration section */
+
+        /* Begin XCConfigurationList section */
+        CONFPRJ00000000000000000 /* Build configuration list for PBXProject "ResoWave" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                DBGC0000000000000000000 /* Debug */,
+                RELC0000000000000000000 /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        CONFTAR00000000000000000 /* Build configuration list for PBXNativeTarget "ResoWave" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                DBGT0000000000000000000 /* Debug */,
+                RELT0000000000000000000 /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        /* End XCConfigurationList section */
+    };
+    rootObject = PROJ00000000000000000000 /* Project object */;
+}
