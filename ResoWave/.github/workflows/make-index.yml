@@ -12,7 +12,7 @@ jobs:
           fetch-depth: 0
       - name: Generate CODE_INDEX.md
         run: |
-          echo "# Code Index (flatten-tree)" > CODE_INDEX.md
+          echo "# Code Index (${GITHUB_REF_NAME})" > CODE_INDEX.md
           echo "" >> CODE_INDEX.md
           while IFS= read -r f; do
             echo "- [$f](https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${GITHUB_REF_NAME}/${f})" >> CODE_INDEX.md
@@ -24,4 +24,3 @@ jobs:
           git add CODE_INDEX.md
           git commit -m "Add CODE_INDEX.md" || echo "No changes"
           git push
-
